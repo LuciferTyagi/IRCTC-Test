@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'http://localhost:3000/api', 
+  baseURL: 'https://irctc-test-server-fpeug9343-lucifertyagis-projects.vercel.app/api', 
 });
 
 export default instance;
